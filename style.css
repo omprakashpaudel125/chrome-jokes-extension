@@ -1,0 +1,24 @@
+body{
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+p{  
+    display: inner-flex;
+    margin: auto;
+    font-size: large;
+    color: yellowgreen;
+    border: 0.5px solid yellowgreen;
+}
+.refresh-button{
+
+    display: flex;
+    justify-content: center;
+    /* padding-left: 5px ; */
+}
+#refresh{
+    width: 50px;
+}

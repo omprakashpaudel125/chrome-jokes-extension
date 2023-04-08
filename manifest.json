@@ -1,0 +1,11 @@
+{
+    "name": "Jokes Extension",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "description": "A fun extension that tells jokes",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Jokes Extension"
+    },
+    "permissions": ["activeTab"]
+  }
